@@ -1,0 +1,111 @@
+.app-bg-container {
+  background-image: linear-gradient(to Top, #9796f0, #fbc7d4);
+  padding: 20px;
+}
+.appointments-container {
+  padding: 15px;
+  padding-top: 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+.appointments-entry-card {
+  display: flex;
+  margin-bottom: 20px;
+}
+.appointments-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+.main-heading {
+  color: #171f46;
+  font-size: 28px;
+}
+.input-label {
+  color: #1e2549;
+  font-weight: 400;
+  margin-bottom: 3px;
+}
+.input-title {
+  height: 40px;
+  width: 100%;
+  margin-bottom: 10px;
+  font-size: 16px;
+  padding: 5px;
+  border: 1px solid #b5b7c4;
+  border-radius: 6px;
+}
+.input-date {
+  height: 40px;
+  width: 100%;
+  margin-bottom: 10px;
+  font-size: 16px;
+  padding: 5px;
+  border: 1px solid #b5b7c4;
+  border-radius: 6px;
+}
+.appointment-add-button {
+  background-color: #8b5cf6;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.appointment-image-card {
+  display: none;
+}
+.appointment-image {
+}
+.horizontal-line {
+}
+.appointments {
+  color: #171f46;
+  font-size: 24px;
+}
+.starred-filter-button {
+  color: #9897f0;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: transparent;
+  border: 2px solid #9897f0;
+  border-radius: 15px;
+  padding: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+  outline: none;
+}
+.appointments-list {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 768px) {
+  .app-bg-container {
+    padding: 40px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .appointments-form {
+    width: 40%;
+  }
+  .appointment-image-card {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+  }
+  .appointment-image {
+    width: 60%;
+  }
+}

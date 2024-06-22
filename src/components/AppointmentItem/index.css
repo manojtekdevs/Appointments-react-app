@@ -1,0 +1,41 @@
+.appointment-item {
+  padding-left: 0px;
+  width: 100%;
+  margin: 5px;
+}
+@media screen and (min-width: 768px) {
+  .appointment-item {
+    width: 30%;
+  }
+}
+.appointment-details-container {
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #b5b7c4;
+  margin: 5px;
+}
+.appointment-title-star {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.appointment-title {
+  color: #171f46;
+  font-size: 18px;
+  font-weight: bold;
+}
+.appointment-star-button {
+  padding: 0px;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+.star-icon {
+  width: 30px;
+}
+.appointment-date {
+  font-size: 18px;
+}
